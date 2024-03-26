@@ -1,0 +1,13 @@
+addSubDomain({
+  description: '...', // describe your project in this field
+  domain: '1bt.uk', // aka "root-domain". select between '1bt.uk' and 'is-an.app'
+  subdomain: 'marsi', // desired subdomain name
+  owner: {
+    repo: '',
+    email: 'marsi@marsi59.eu.org',
+  },
+  record: {
+    TXT: ['_vercel', 'vc-domain-verify=marsi.1bt.uk,e197419ec06efbdafa5f'],
+
+  },
+})
